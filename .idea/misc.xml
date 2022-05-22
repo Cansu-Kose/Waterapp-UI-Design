@@ -3,28 +3,47 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/button_shape.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/circle1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/circle2.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_control_point_24.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_history_24.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_insert_chart_outlined_24.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_bt1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_btwtr.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_ellipse3.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_hyd1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_kpk1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_line_1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_line_10.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_line_3.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_ml1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_pageup.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_pageup1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_pageup2.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_r1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_rech1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_rech2.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_rech3.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_rectangle1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_st1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_st2.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_union.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_union2.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_vector.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_vector2.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_wght1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_wtr1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/shapegeri.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_choose.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_drink.xml" value="0.264" />
-        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_history.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_history.xml" value="0.264" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_instant_pay.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_instant_pay2.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_settings.xml" value="0.22826086956521738" />

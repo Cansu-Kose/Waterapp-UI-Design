@@ -2,15 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/chart"
-        android:title="chart"
-        android:icon="@drawable/ic_baseline_insert_chart_outlined_24"
+        android:id="@+id/startFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24"
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/settings"
-        android:title="settings"
+        android:id="@+id/settingsFragment"
+        android:title="Settings"
         android:icon="@drawable/ic_baseline_settings_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/historyFragment"
+        android:title="History"
+        android:icon="@drawable/ic_baseline_history_24"
         app:showAsAction="ifRoom"/>
 
 </menu>
