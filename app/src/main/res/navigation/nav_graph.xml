@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/chooseFragment"
+        android:name="com.example.payment.ChooseFragment"
+        android:label="fragment_choose"
+        tools:layout="@layout/fragment_choose" >
+        <action
+            android:id="@+id/action_chooseFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_weightManFragment"
+            app:destination="@id/weightManFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_weightWomenFragment"
+            app:destination="@id/weightWomenFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.payment.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" >
+        <action
+            android:id="@+id/action_startFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weightManFragment"
+        android:name="com.example.payment.WeightManFragment"
+        android:label="WeightManFragment" >
+        <action
+            android:id="@+id/action_weightManFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weightWomenFragment"
+        android:name="com.example.payment.WeightWomenFragment"
+        android:label="WeightWomenFragment" >
+        <action
+            android:id="@+id/action_weightWomenFragment_to_chooseFragment"
+            app:destination="@id/chooseFragment" />
+    </fragment>
+</navigation>
