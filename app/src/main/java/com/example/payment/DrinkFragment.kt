@@ -7,14 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
-import com.example.payment.databinding.FragmentWeightManBinding
+import com.example.payment.databinding.FragmentDrinkBinding
 
 
-class WeightManFragment : Fragment() {
-    private lateinit var fragmentWeightManBinding: FragmentWeightManBinding
+class DrinkFragment : Fragment() {
+    private lateinit var fragmentDrinkBinding: FragmentDrinkBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
 
     }
 
@@ -22,18 +23,17 @@ class WeightManFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        fragmentWeightManBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_weight_man,container,false)
+        fragmentDrinkBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_drink,container,false)
         // Inflate the layout for this fragment
-        return fragmentWeightManBinding.root
+        return fragmentDrinkBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        fragmentWeightManBinding.backbutton3.setOnClickListener {
-            findNavController().navigate(R.id.action_weightManFragment_to_chooseFragment)
-
+        fragmentDrinkBinding.chart.setOnClickListener {
+            findNavController().navigate(R.id.action_drinkFragment_to_historyFragment)
         }
-        fragmentWeightManBinding.nextbutton2.setOnClickListener {
-            findNavController().navigate(R.id.action_weightManFragment_to_drinkFragment)
+        fragmentDrinkBinding.settings.setOnClickListener {
+            findNavController().navigate(R.id.action_drinkFragment_to_settingsFragment)
         }
     }
 

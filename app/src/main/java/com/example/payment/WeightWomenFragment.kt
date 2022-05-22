@@ -31,6 +31,9 @@ class WeightWomenFragment : Fragment() {
         fragmentWeightWomenBinding.backbutton2.setOnClickListener {
             findNavController().navigate(R.id.action_weightWomenFragment_to_chooseFragment)
         }
+        fragmentWeightWomenBinding.nextbutton3.setOnClickListener {
+            findNavController().navigate(R.id.action_weightWomenFragment_to_drinkFragment)
+        }
     }
 
 }

@@ -36,6 +36,9 @@
         <action
             android:id="@+id/action_weightManFragment_to_chooseFragment"
             app:destination="@id/chooseFragment" />
+        <action
+            android:id="@+id/action_weightManFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
     </fragment>
     <fragment
         android:id="@+id/weightWomenFragment"
@@ -44,5 +47,27 @@
         <action
             android:id="@+id/action_weightWomenFragment_to_chooseFragment"
             app:destination="@id/chooseFragment" />
+        <action
+            android:id="@+id/action_weightWomenFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/drinkFragment"
+        android:name="com.example.payment.DrinkFragment"
+        android:label="DrinkFragment" >
+        <action
+            android:id="@+id/action_drinkFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+        <action
+            android:id="@+id/action_drinkFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.payment.HistoryFragment"
+        android:label="HistoryFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.payment.SettingsFragment"
+        android:label="SettingsFragment" />
 </navigation>
