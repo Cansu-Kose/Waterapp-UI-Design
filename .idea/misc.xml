@@ -16,6 +16,10 @@
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_bt1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_btwtr.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_ellipse3.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_group_11.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_group_12.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_group_16.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_group_17.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_hyd1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_kpk1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
@@ -47,7 +51,11 @@
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_instant_pay.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_instant_pay2.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_settings.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_sleep_man.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_sleep_women.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_start.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_wakeup_man.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_wakeup_women.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_weight_man.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_weight_women.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/menu/navigation_menu.xml" value="0.25" />

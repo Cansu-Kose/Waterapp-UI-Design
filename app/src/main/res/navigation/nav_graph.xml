@@ -19,6 +19,9 @@
         <action
             android:id="@+id/action_chooseFragment_to_weightWomenFragment"
             app:destination="@id/weightWomenFragment" />
+        <action
+            android:id="@+id/action_chooseFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
     </fragment>
     <fragment
         android:id="@+id/startFragment"
@@ -37,8 +40,8 @@
             android:id="@+id/action_weightManFragment_to_chooseFragment"
             app:destination="@id/chooseFragment" />
         <action
-            android:id="@+id/action_weightManFragment_to_drinkFragment"
-            app:destination="@id/drinkFragment" />
+            android:id="@+id/action_weightManFragment_to_wakeupManFragment"
+            app:destination="@id/wakeupManFragment" />
     </fragment>
     <fragment
         android:id="@+id/weightWomenFragment"
@@ -48,8 +51,11 @@
             android:id="@+id/action_weightWomenFragment_to_chooseFragment"
             app:destination="@id/chooseFragment" />
         <action
-            android:id="@+id/action_weightWomenFragment_to_drinkFragment"
-            app:destination="@id/drinkFragment" />
+            android:id="@+id/action_weightWomenFragment_to_wakeupWomenFragment"
+            app:destination="@id/wakeupWomenFragment" />
+        <action
+            android:id="@+id/action_weightWomenFragment_to_wakeupWomenFragment2"
+            app:destination="@id/wakeupWomenFragment" />
     </fragment>
     <fragment
         android:id="@+id/drinkFragment"
@@ -70,4 +76,48 @@
         android:id="@+id/settingsFragment"
         android:name="com.example.payment.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/sleepManFragment"
+        android:name="com.example.payment.SleepManFragment"
+        android:label="SleepManFragment" >
+        <action
+            android:id="@+id/action_sleepManFragment_to_wakeupManFragment"
+            app:destination="@id/wakeupManFragment" />
+        <action
+            android:id="@+id/action_sleepManFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sleepWomenFragment"
+        android:name="com.example.payment.SleepWomenFragment"
+        android:label="SleepWomenFragment" >
+        <action
+            android:id="@+id/action_sleepWomenFragment_to_wakeupWomenFragment"
+            app:destination="@id/wakeupWomenFragment" />
+        <action
+            android:id="@+id/action_sleepWomenFragment_to_drinkFragment"
+            app:destination="@id/drinkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wakeupManFragment"
+        android:name="com.example.payment.WakeupManFragment"
+        android:label="WakeupManFragment" >
+        <action
+            android:id="@+id/action_wakeupManFragment_to_sleepManFragment"
+            app:destination="@id/sleepManFragment" />
+        <action
+            android:id="@+id/action_wakeupManFragment_to_weightManFragment"
+            app:destination="@id/weightManFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/wakeupWomenFragment"
+        android:name="com.example.payment.WakeupWomenFragment"
+        android:label="WakeupWomenFragment" >
+        <action
+            android:id="@+id/action_wakeupWomenFragment_to_sleepWomenFragment"
+            app:destination="@id/sleepWomenFragment" />
+        <action
+            android:id="@+id/action_wakeupWomenFragment_to_weightWomenFragment"
+            app:destination="@id/weightWomenFragment" />
+    </fragment>
 </navigation>

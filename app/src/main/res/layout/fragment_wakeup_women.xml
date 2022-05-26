@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WakeupWomenFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:src="@drawable/ic_line_1"
+        app:layout_constraintBottom_toTopOf="@+id/nextbutton7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/female_bttn3"
+        app:layout_constraintTop_toTopOf="@+id/textView56"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="9dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text=":"
+        android:textColor="#FF4593"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView49"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/imageView49"
+        app:layout_constraintTop_toTopOf="@+id/imageView49" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="06"
+        android:textColor="#FF4593"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView50"
+        app:layout_constraintEnd_toStartOf="@+id/textView56"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toEndOf="@+id/female_bttn3"
+        app:layout_constraintTop_toTopOf="@+id/textView56"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
+        android:text="00"
+        android:textColor="#FF4593"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toEndOf="@+id/textView56"
+        app:layout_constraintTop_toBottomOf="@+id/imageView49"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <ImageView
+        android:id="@+id/imageView49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_line_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/female_bttn3"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="240dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="72dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="What time do you wake up"
+        android:textColor="#FF4593"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/female_bttn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/backbutton7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="BACK"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/nextbutton"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <Button
+        android:id="@+id/nextbutton7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="NEXT"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.684" />
+
+    <ImageView
+        android:id="@+id/female_bttn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginBottom="116dp"
+        android:src="@drawable/ic_fml1"
+        app:layout_constraintBottom_toTopOf="@+id/backbutton7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle2"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_group_16"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView39"
+        app:layout_constraintEnd_toEndOf="@+id/imageView39"
+        app:layout_constraintStart_toStartOf="@+id/imageView39"
+        app:layout_constraintTop_toTopOf="@+id/imageView39" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
-import com.example.payment.databinding.FragmentWeightManBinding
+import com.example.payment.databinding.FragmentWakeupManBinding
 
 
-class WeightManFragment : Fragment() {
-    private lateinit var fragmentWeightManBinding: FragmentWeightManBinding
+class WakeupManFragment : Fragment() {
+    private lateinit var fragmentWakeupManBinding: FragmentWakeupManBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,20 +22,19 @@ class WeightManFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        fragmentWeightManBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_weight_man,container,false)
+        fragmentWakeupManBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_wakeup_man,container,false)
         // Inflate the layout for this fragment
-        return fragmentWeightManBinding.root
+        return fragmentWakeupManBinding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        fragmentWeightManBinding.backbutton3.setOnClickListener {
-            findNavController().navigate(R.id.action_weightManFragment_to_chooseFragment)
+        fragmentWakeupManBinding.backbutton6.setOnClickListener {
+            findNavController().navigate(R.id.action_wakeupManFragment_to_weightManFragment)
 
         }
-        fragmentWeightManBinding.nextbutton2.setOnClickListener {
-            findNavController().navigate(R.id.action_weightManFragment_to_wakeupManFragment)
+        fragmentWakeupManBinding.nextbutton6.setOnClickListener {
+            findNavController().navigate(R.id.action_wakeupManFragment_to_sleepManFragment)
         }
-
     }
 
 

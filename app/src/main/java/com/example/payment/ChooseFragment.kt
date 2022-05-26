@@ -38,6 +38,9 @@ class ChooseFragment : Fragment() {
         fragmentChooseBinding.femaleBttn.setOnClickListener {
             findNavController().navigate(R.id.action_chooseFragment_to_weightWomenFragment)
         }
+        fragmentChooseBinding.nextbutton.setOnClickListener {
+            findNavController().navigate(R.id.action_chooseFragment_to_drinkFragment)
+        }
 
     }
 
