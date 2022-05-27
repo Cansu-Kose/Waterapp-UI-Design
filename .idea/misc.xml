@@ -43,8 +43,11 @@
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_vector2.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_wght1.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/ic_wtr1.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/radio_button_left_checked.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/radio_button_left_unchecked.xml" value="0.1735" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/radio_nutton_left_selector.xml" value="0.1735" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/drawable/shapegeri.xml" value="0.1735" />
-        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_choose.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_drink.xml" value="0.264" />
         <entry key="..\:/Users/cansu/AndroidStudioProjects/payment/app/src/main/res/layout/fragment_history.xml" value="0.264" />

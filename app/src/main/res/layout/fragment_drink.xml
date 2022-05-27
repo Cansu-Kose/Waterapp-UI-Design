@@ -133,59 +133,20 @@
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:layout_marginStart="60dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="60dp"
         android:fontFamily="@font/roboto_medium"
         android:text="+ Drink"
         android:textAllCaps="false"
         android:textSize="24sp"
         app:cornerRadius="20dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView19"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:src="@drawable/ic_rectangle1"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView17"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <ImageView
-        android:id="@+id/settings"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView19"
-        app:srcCompat="@drawable/ic_baseline_settings_24" />
 
-    <ImageView
-        android:id="@+id/chart"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/control"
-        app:layout_constraintHorizontal_bias="0.485"
-        app:layout_constraintStart_toStartOf="@+id/imageView19"
-        app:srcCompat="@drawable/ic_baseline_insert_chart_outlined_24" />
-
-    <ImageView
-        android:id="@+id/control"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView19"
-        app:layout_constraintEnd_toStartOf="@+id/settings"
-        app:srcCompat="@drawable/ic_baseline_control_point_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout></layout>

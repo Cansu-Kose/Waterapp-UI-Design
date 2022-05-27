@@ -5,13 +5,17 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
+import com.example.payment.databinding.FragmentHistoryBinding
 
 
 class HistoryFragment : Fragment() {
-
+    private lateinit var fragmentHistoryBinding: FragmentHistoryBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+
 
     }
 
@@ -19,8 +23,9 @@ class HistoryFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        fragmentHistoryBinding=DataBindingUtil.inflate(inflater,R.layout.fragment_history,container,false)
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_history, container, false)
+        return fragmentHistoryBinding.root
     }
 
 

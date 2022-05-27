@@ -33,26 +33,16 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/ic_rech2" />
-
-    <ImageView
         android:id="@+id/imageView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="160dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.647"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView14"
-        app:layout_constraintVertical_bias="0.187"
         app:srcCompat="@drawable/ic_rech3" />
 
     <ImageView
@@ -432,42 +422,80 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView27"
         app:srcCompat="@drawable/ic_line_10" />
 
-    <com.google.android.material.chip.ChipGroup
+    <RadioGroup
+        android:id="@+id/radioGroup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
-        app:layout_constraintEnd_toEndOf="@+id/imageView14"
-        app:layout_constraintStart_toStartOf="@+id/imageView14"
-        app:layout_constraintTop_toTopOf="@+id/imageView14"
-        app:layout_constraintVertical_bias="0.409">
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13">
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip5"
+        <android.widget.RadioButton
+            android:id="@+id/bttn_day"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nutton_left_selector"
+            android:button="@color/teal_700"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
             android:text="D"
-            style="@style/CustomChipStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textColor="#71D4FF"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="556dp" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip7"
-            android:text="W"
-            style="@style/CustomChipStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip6"
+        <android.widget.RadioButton
+            android:id="@+id/bttn_month"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nutton_left_selector"
+            android:button="@color/teal_700"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
             android:text="M"
-            style="@style/CustomChipStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textColor="#71D4FF"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="554dp" />
 
-        <com.google.android.material.chip.Chip
-            android:id="@+id/chip8"
+        <android.widget.RadioButton
+            android:id="@+id/bttn_week"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nutton_left_selector"
+            android:button="@color/teal_700"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="W"
+            android:textColor="#71D4FF"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="554dp" />
+
+        <android.widget.RadioButton
+            android:id="@+id/bttn_year"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_nutton_left_selector"
+            android:button="@color/teal_700"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
             android:text="Y"
-            style="@style/CustomChipStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-    </com.google.android.material.chip.ChipGroup>
+            android:textColor="#71D4FF"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="554dp" />
+    </RadioGroup>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout></layout>
