@@ -11,6 +11,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.payment.databinding.ActivityMainBinding
 import com.example.payment.databinding.FragmentStartBinding
+import com.google.firebase.database.FirebaseDatabase
 import java.util.HashSet
 
 
@@ -19,7 +20,10 @@ class StartFragment : Fragment() {
     private lateinit var fragmentStartBinding:FragmentStartBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
+//        val database= FirebaseDatabase.getInstance()
+//        val refkisiler=database.getReference("kisiler")
+//        val kisi=Kisiler("Female",7,23)
+//        refkisiler.push().setValue(kisi)
     }
 
     override fun onCreateView(

@@ -8,70 +8,6 @@
     tools:context=".SleepManFragment">
 
 
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_medium"
-        android:text="10"
-        android:textColor="#1BAEEE"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView53"
-        app:layout_constraintEnd_toStartOf="@+id/textView53"
-        app:layout_constraintHorizontal_bias="0.692"
-        app:layout_constraintStart_toEndOf="@+id/imageView52"
-        app:layout_constraintTop_toTopOf="@+id/textView53"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView53"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_medium"
-        android:text=":"
-        android:textColor="#1BAEEE"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView42"
-        app:layout_constraintEnd_toEndOf="@+id/imageView41"
-        app:layout_constraintStart_toStartOf="@+id/imageView41"
-        app:layout_constraintTop_toBottomOf="@+id/imageView41" />
-
-    <TextView
-        android:id="@+id/textView54"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_medium"
-        android:text="00"
-        android:textColor="#1BAEEE"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/textView53"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.213"
-        app:layout_constraintStart_toEndOf="@+id/textView53"
-        app:layout_constraintTop_toTopOf="@+id/textView53"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/ic_line_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView52"
-        app:layout_constraintTop_toBottomOf="@+id/textView43" />
-
-    <ImageView
-        android:id="@+id/imageView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_line_1"
-        app:layout_constraintBottom_toTopOf="@+id/nextbutton4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView52"
-        app:layout_constraintTop_toTopOf="@+id/imageView41"
-        app:layout_constraintVertical_bias="0.297" />
-
     <Button
         android:id="@+id/backbutton5"
         android:layout_width="100dp"
@@ -82,10 +18,8 @@
         android:text="BACK"
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nextbutton"
         app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
         app:layout_constraintVertical_bias="0.684" />
 
     <Button
@@ -99,7 +33,6 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
         app:layout_constraintVertical_bias="0.684" />
 
     <ImageView
@@ -143,10 +76,24 @@
         android:id="@+id/imageView52"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
+        android:layout_marginStart="54dp"
         android:layout_marginBottom="116dp"
         android:src="@drawable/ic_group_11"
         app:layout_constraintBottom_toTopOf="@+id/backbutton5"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="false"
+        android:theme="@style/mythimepickerstyle2"
+        android:timePickerMode="spinner"
+        app:layout_constraintBottom_toTopOf="@+id/nextbutton4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toEndOf="@+id/imageView52"
+        app:layout_constraintTop_toBottomOf="@+id/textView43"
+        app:layout_constraintVertical_bias="0.297" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

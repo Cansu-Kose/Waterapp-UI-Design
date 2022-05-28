@@ -49,39 +49,6 @@
         app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="33dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginBottom="14dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="70"
-        android:textColor="#FF4593"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="33dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginBottom="14dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="kg"
-        android:textColor="#FF4593"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
-        app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
@@ -105,31 +72,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/ic_line_1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.582"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
-
-    <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:src="@drawable/ic_line_1"
-        app:layout_constraintBottom_toTopOf="@+id/nextbutton3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.583"
-        app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11"
-        app:layout_constraintVertical_bias="0.182" />
-
-    <ImageView
         android:id="@+id/imageView30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -138,5 +80,53 @@
         app:layout_constraintStart_toStartOf="@+id/imageView8"
         app:layout_constraintTop_toTopOf="@+id/imageView8"
         app:srcCompat="@drawable/ic_vector2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center_horizontal"
+        android:scrollbarSize="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextbutton3"
+        app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toEndOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.417">
+
+        <NumberPicker
+            android:id="@+id/numPickerMin2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            android:theme="@style/AppTheme.Picker2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:scrollbarSize="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextbutton3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.455">
+
+        <NumberPicker
+            android:id="@+id/numPickerMin3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="20dp"
+            android:descendantFocusability="blocksDescendants"
+            android:orientation="vertical"
+            android:theme="@style/AppTheme.Picker2" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

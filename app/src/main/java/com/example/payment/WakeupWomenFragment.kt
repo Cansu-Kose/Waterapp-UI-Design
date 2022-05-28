@@ -35,6 +35,9 @@ class WakeupWomenFragment : Fragment() {
         fragmentWakeupWomenBinding.nextbutton7.setOnClickListener {
             findNavController().navigate(R.id.action_wakeupWomenFragment_to_sleepWomenFragment)
         }
+    }
 
-}
+
+
+
 }

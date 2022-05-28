@@ -41,7 +41,7 @@
 
     <ImageView
         android:id="@+id/imageView14"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -153,7 +153,7 @@
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -315,7 +315,7 @@
 
     <ImageView
         android:id="@+id/imageView19"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="@+id/textView72"
