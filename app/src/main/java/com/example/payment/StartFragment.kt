@@ -1,5 +1,6 @@
 package com.example.payment
 
+import android.content.Context
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -10,6 +11,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
 import com.example.payment.databinding.ActivityMainBinding
 import com.example.payment.databinding.FragmentStartBinding
+import java.util.HashSet
 
 
 class StartFragment : Fragment() {
@@ -17,6 +19,7 @@ class StartFragment : Fragment() {
     private lateinit var fragmentStartBinding:FragmentStartBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
     }
 
     override fun onCreateView(
