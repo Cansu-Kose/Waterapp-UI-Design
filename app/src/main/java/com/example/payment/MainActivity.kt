@@ -21,8 +21,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
-        val sp=getSharedPreferences("giris bilgi",Context.MODE_PRIVATE)
-
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         val navController = navHostFragment.navController
@@ -48,7 +46,9 @@ class MainActivity : AppCompatActivity() {
                 bottomNavigation.visibility=View.GONE
             } else if (destination.id == R.id.loginFragment) {
                 bottomNavigation.visibility=View.GONE
-            } else {
+            } else if (destination.id == R.id.registerFragment) {
+                bottomNavigation.visibility=View.GONE
+            }else {
                 bottomNavigation.visibility=View.VISIBLE
             }
         }
