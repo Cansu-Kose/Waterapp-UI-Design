@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "384632344185",
-    "project_id": "waterapp-2ebe3",
-    "storage_bucket": "waterapp-2ebe3.appspot.com"
+    "project_number": "327847304164",
+    "project_id": "waterreminder-98368",
+    "storage_bucket": "waterreminder-98368.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:384632344185:android:dba0db8e8ea4e9baeb0ea8",
+        "mobilesdk_app_id": "1:327847304164:android:1244f93688a1e75d0445f1",
         "android_client_info": {
           "package_name": "com.example.payment"
         }
       },
       "oauth_client": [
         {
-          "client_id": "384632344185-0r1ksu85al2iljdudv0gd0bassmu85mj.apps.googleusercontent.com",
+          "client_id": "327847304164-hrivtdliijd3r1g9cdfopsete2kuf3kd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAcp5ONQrH-x_CUAC2kUCh1_SlbPo0O_Js"
+          "current_key": "AIzaSyDxcgvgZAk0yZCReJhOes0ZQaMMVdqRaCM"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "384632344185-0r1ksu85al2iljdudv0gd0bassmu85mj.apps.googleusercontent.com",
+              "client_id": "327847304164-hrivtdliijd3r1g9cdfopsete2kuf3kd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

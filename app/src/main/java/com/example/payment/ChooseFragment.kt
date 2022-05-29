@@ -30,7 +30,7 @@ class ChooseFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         fragmentChooseBinding.backbutton.setOnClickListener {
-            findNavController().navigate(R.id.action_chooseFragment_to_startFragment)
+            findNavController().navigate(R.id.action_chooseFragment_to_loginFragment)
         }
         fragmentChooseBinding.maleBttn.setOnClickListener {
             findNavController().navigate(R.id.action_chooseFragment_to_weightManFragment)

@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.AttributeSet
 import android.view.View
+import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.payment.databinding.ActivityMainBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -18,6 +20,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        val sp=getSharedPreferences("giris bilgi",Context.MODE_PRIVATE)
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
@@ -41,6 +45,8 @@ class MainActivity : AppCompatActivity() {
             } else if (destination.id == R.id.wakeupManFragment) {
                 bottomNavigation.visibility=View.GONE
             } else if (destination.id == R.id.wakeupWomenFragment) {
+                bottomNavigation.visibility=View.GONE
+            } else if (destination.id == R.id.loginFragment) {
                 bottomNavigation.visibility=View.GONE
             } else {
                 bottomNavigation.visibility=View.VISIBLE
